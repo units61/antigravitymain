@@ -52,3 +52,12 @@ All final resolutions must pass the constraint rules defined in `data/graph/desi
 1. **Density Conflict**: A luxury aesthetic cannot exist with `high` density spacing.
 2. **Motion Conflict**: A calm aesthetic must keep motion energy under `4`.
 3. **Color-Typo Consistency**: A corporate blue palette should not be combined with brutalist mechanical monospace typography.
+
+---
+
+## 4. ASLA YAPMA (Negative Constraints)
+- **ASLA duygusal arketiple çelişen ontoloji eşleşmelerine izin verme.** Örneğin sakin (`calm`) bir duygu için sert, mekanik monospace yazı tipleri veya aşırı titreşimli kırmızı/neon renkler atama.
+- **ASLA lüks ve minimal temaları yüksek yerleşim yoğunluğu (`high density`) ile eşleme.** Boşluk (whitespace) lüks hissinin ana kaynağıdır.
+- **ASLA birbirini ezmeyen, kontrast oluşturmayan font ikilileri türetme.** Başlık fontu ile gövde fontunun karakterleri (örneğin serif ile geometric sans) her zaman estetik olarak birbirini dengelemelidir.
+- **ASLA tasarım kuralları grafiğindeki (`design_rules.json`) hataları sessizce yutma.** Bir hata (`ERROR`) oluştuğunda sistemi doğrudan revizyon döngüsüne alarak parametreleri düzeltmeye zorla.
+- **ASLA jenerik ve sıkıcı mavi/gri renk kombinasyonlarını varsayılan olarak atama.** Her temanın kendine özgü, premium ve HSL bazlı bir renk harmonisi olmalıdır.

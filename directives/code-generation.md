@@ -138,3 +138,12 @@ All components written into the `components/` directory must adhere to premium f
 Before completing assembly:
 1. **Folder Verification**: Check that all 3 configuration files, the standard stylesheets, and individual React files exist.
 2. **Derivation Test**: Automatically verify that the generated codebase executes `npm run build` cleanly without syntax or linting errors.
+
+---
+
+## 6. ASLA YAPMA (Negative Constraints)
+- **ASLA `"use client";` ifadesini unutup hydration hatalarına neden olma.** Framer Motion, GSAP, Lenis veya standard state/effect kullanan her React bileşeninin en üst satırına bu ifadeyi kesinlikle ekle.
+- **ASLA TailwindCSS içinde `var(--color-bg)` gibi değişkenleri doğrudan sınıf isimleri yerine (`bg-[var(--color-bg)]` gibi) ham şekilde yazma.** Bunları `tailwind.config.js` içine map et ve `bg-background` veya `text-foreground` şeklinde çağır.
+- **ASLA pürüzsüzleştirilmemiş scroll (ham window scroll) kullanan GSAP ScrollTrigger kodlama.** Lenis entegrasyonu her zaman aktif olmalı ve ScrollTrigger `scrub: 1` veya `scrub: 1.5` gibi akıcı değerlerle donatılmalıdır.
+- **ASLA 3D WebGL katmanı üzerine gelen DOM metin kutularına `pointer-events: none` eklemeyi unutma.** Canvas altındaki 3D model etkileşimlerinin bloklanmaması için DOM yerleşim katmanlarında pointer event akışlarını kesinlikle kontrol et.
+- **ASLA `ScrollTrigger.kill()` çağrısını yapmayan, cleanup edilmemiş ham GSAP useEffect blokları yazma.** Bellek sızıntılarını önlemek için GSAP animasyonlarını her zaman `useGsapScroll` kancası (hook) veya `gsap.context()` temizleme fonksiyonları ile sarmalla.

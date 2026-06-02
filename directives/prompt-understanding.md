@@ -86,3 +86,12 @@ Assign an animation budget rating from **1 to 10**:
 * **Contradictory Prompts** (e.g., *"Luxury brutalist, highly calm but energetic"*): Prioritize **Luxury** over Brutalist. Set Visual Density to `low` but use a high-energy kinetic color accent.
 * **Vague Prompts** (e.g., *"Cool site"*): Default to archetype `everyman`, emotion `trustworthy`, density `medium`, and motion `5`.
 * **Language Support**: Translate Turkish or other localized terms to the correct standard keywords (e.g., "lüks" -> "luxury", "sakin" -> "calm").
+
+---
+
+## 5. ASLA YAPMA (Negative Constraints)
+- **ASLA jenerik ve sıkıcı bir 'Everyman' arketipine varsayılan olarak düşme.** Promptun içinde en ufak bir ipucu varsa, bunu Creator, Rebel, Magician veya Lover gibi yüksek sanatsal arketiplere eşle.
+- **ASLA düz, sıradan renkler seçme.** 'red', 'blue', 'green' gibi ana renkler yerine her zaman premium HSL veya hex renk kodları türet.
+- **ASLA çelişkili veya anlamsız 3D model istekleri üretme.** Seçilen 3D model, marka arketipi ve temayla tam bir bütünlük içinde olmalıdır (Örn: Lüks saat sitesi için spor araba veya mekanik kılıç yerine premium saat kasası iste).
+- **ASLA tüm hareket enerjilerini (motion_energy) ortalama 5 olarak sabitleme.** Sakin siteler için kesinlikle 1-3, asi ve cyber temalar için kesinlikle 8-10 gibi net uç değerler belirle.
+- **ASLA spatial_depth ve camera_movement_style parametrelerini 'static' veya 'near' olarak sınırlı bırakma.** Awwwards deneyimi derinlik ve akıcılık gerektirir; mümkün mertebe 'far', 'infinite' ve 'orbit', 'dive' kamera stillerini tercih et.

@@ -83,3 +83,12 @@ You must output a strictly structured, clean JSON object matching the following 
      ```
 4. **Google Fonts Link**: Generate a valid Google Fonts API link in `fonts_import` matching the resolved typography tokens (e.g. `https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;700&display=swap`).
 5. **A11y (Accessibility) Polish**: Ensure colors have high contrast, specify semantic HTML wrappers (e.g. `<header>`, `<main>`, `<footer>`), and specify button focus actions. Document this in `a11y_notes`.
+
+---
+
+## 4. ASLA YAPMA (Negative Constraints)
+- **ASLA birbirine yapışık, düz ve sıradan grid/flexbox yapıları kurma.** Grid ve flexbox yapıları asimetrik olmalı, elemanlar `staggered` (basamaklı) veya `overlapping` (üst üste binen) düzenlerde yerleşmelidir.
+- **ASLA standart ve sıkıcı font eşleşmeleri yapma.** Google Fonts'tan ithal edilen fontlar mutlaka biri dekoratif/sergileme (display/editorial) diğeri ise okunabilir gövde (body) fontu olacak şekilde kontrast yaratmalıdır.
+- **ASLA component variant'larını tamamen 'default' olarak bırakma.** Temaya ve tasarıma göre `split`, `dark`, `light` veya asimetrik glassmorphic varyasyonlar atayarak zenginlik kat.
+- **ASLA `fonts_import` değerini boş veya geçersiz bir URL olarak bırakma.** Google Fonts kütüphanesinden seçilen ağırlıkları (weights) ve stilleri tam olarak belirten geçerli bir URL üret.
+- **ASLA responsive tasarımı göz ardı etme.** Mobil görünümler için CSS değişkenlerinde daha esnek padding, daha küçük font boyutları ve tek sütunlu asimetrik dönüşümler planla.
