@@ -1,0 +1,80 @@
+[
+  {
+    "id": "airy",
+    "name": "Airy / High-Breathing",
+    "density": "low",
+    "layout_rules": {
+      "section_padding_y": "clamp(6rem, 10vw, 12rem)",
+      "container_max_width": "80vw",
+      "grid_gap": "clamp(2rem, 4vw, 5rem)",
+      "asymmetrical": false,
+      "border_visible": false
+    },
+    "description": "Luxurious spacing with huge breathing room that feels elite, clean, and calm."
+  },
+  {
+    "id": "grid-heavy",
+    "name": "Grid Heavy / Structured",
+    "density": "medium",
+    "layout_rules": {
+      "section_padding_y": "clamp(4rem, 6vw, 8rem)",
+      "container_max_width": "90vw",
+      "grid_gap": "1px",
+      "asymmetrical": false,
+      "border_visible": true
+    },
+    "description": "Distinct borders, retro/brutalist structural lines, block grids that look highly organized or editorial."
+  },
+  {
+    "id": "asymmetric",
+    "name": "Asymmetric / Editorial Stagger",
+    "density": "low",
+    "layout_rules": {
+      "section_padding_y": "clamp(5rem, 8vw, 10rem)",
+      "container_max_width": "85vw",
+      "grid_gap": "clamp(3rem, 5vw, 6rem)",
+      "asymmetrical": true,
+      "border_visible": false
+    },
+    "description": "Offset grids, staggered images, overlapping text elements that look avant-garde and organic."
+  },
+  {
+    "id": "immersive",
+    "name": "Immersive Full Screen",
+    "density": "low",
+    "layout_rules": {
+      "section_padding_y": "0px",
+      "container_max_width": "100vw",
+      "grid_gap": "0px",
+      "asymmetrical": false,
+      "border_visible": false
+    },
+    "description": "Full viewport panels, scroll snap, high impact background visuals (video/WebGL) that absorb the user."
+  },
+  {
+    "id": "dense",
+    "name": "Dense / High-Information",
+    "density": "high",
+    "layout_rules": {
+      "section_padding_y": "clamp(2rem, 3vw, 4rem)",
+      "container_max_width": "95vw",
+      "grid_gap": "clamp(1rem, 1.5vw, 2rem)",
+      "asymmetrical": false,
+      "border_visible": true
+    },
+    "description": "Highly packed layout, great for charts, data dashboards, terminal vibes, and cyber designs."
+  },
+  {
+    "id": "modular",
+    "name": "Modular Cards",
+    "density": "medium",
+    "layout_rules": {
+      "section_padding_y": "clamp(3rem, 5vw, 6rem)",
+      "container_max_width": "88vw",
+      "grid_gap": "clamp(1.5rem, 2.5vw, 3rem)",
+      "asymmetrical": false,
+      "border_visible": false
+    },
+    "description": "Card compartments with pill-shaped roundings, friendly borders, cozy padding. Perfect for playful, innocent vibes."
+  }
+]

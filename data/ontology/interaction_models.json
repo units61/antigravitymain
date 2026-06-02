@@ -1,0 +1,38 @@
+[
+  {
+    "id": "immersive",
+    "name": "Immersive Artistic",
+    "cursor_type": "custom-magnetic",
+    "hover_effect": "magnetic-pull-tilt",
+    "scroll_control": "smooth-scroll-virtual",
+    "active_state": "scale-down-click",
+    "description": "Magnetic custom cursors, tilt layouts, custom smooth scroll. Perfect for ultra-luxury or cinematic sites."
+  },
+  {
+    "id": "minimal",
+    "name": "Minimalist Native",
+    "cursor_type": "native",
+    "hover_effect": "opacity-fade",
+    "scroll_control": "native",
+    "active_state": "opacity-dim",
+    "description": "Subtle, unpretentious hover fades and native scrolling. Stays clean and fast."
+  },
+  {
+    "id": "reactive",
+    "name": "Reactive Kinetic",
+    "cursor_type": "custom-dot",
+    "hover_effect": "border-glow-ripple",
+    "scroll_control": "native-snap",
+    "active_state": "press-down",
+    "description": "Custom cursor dots that expand on links, kinetic click ripples, borders that light up. Highly functional and technological."
+  },
+  {
+    "id": "gesture-driven",
+    "name": "Gesture Physical",
+    "cursor_type": "native",
+    "hover_effect": "card-tilt-3d",
+    "scroll_control": "scroll-snap-y",
+    "active_state": "elastic-bounce",
+    "description": "Highly tactile 3D hover effects, scroll snap points, and spring-based elastic responses."
+  }
+]

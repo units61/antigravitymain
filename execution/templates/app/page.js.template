@@ -1,0 +1,11 @@
+"use client";
+
+// Dynamic component imports will be appended here by the Component Assembler
+
+export default function Home() {
+  return (
+    <main className="relative w-full min-h-screen flex flex-col bg-background overflow-hidden">
+      {/* Dynamic components will be rendered here by the Component Assembler */}
+    </main>
+  );
+}

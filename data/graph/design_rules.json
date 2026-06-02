@@ -1,0 +1,64 @@
+{
+  "compatibility_rules": [
+    {
+      "rule_id": "rule_luxury_low_density",
+      "source_type": "emotion",
+      "source_val": "luxury",
+      "target_type": "visual_density",
+      "constraint": "equals",
+      "values": ["low"],
+      "severity": "error",
+      "message": "Luxury aesthetic requires high breathing room. Visual density must be low."
+    },
+    {
+      "rule_id": "rule_calm_low_motion",
+      "source_type": "emotion",
+      "source_val": "calm",
+      "target_type": "motion_energy",
+      "constraint": "less_than_or_equal",
+      "values": [4],
+      "severity": "warning",
+      "message": "Calm aesthetics should avoid hyper-kinetic motions. Motion energy must be 4 or less."
+    },
+    {
+      "rule_id": "rule_brutalist_high_density",
+      "source_type": "emotion",
+      "source_val": "aggressive",
+      "target_type": "visual_density",
+      "constraint": "in",
+      "values": ["high", "medium"],
+      "severity": "warning",
+      "message": "Bold/Brutalist layouts benefit from high structured density or raw gridlines."
+    },
+    {
+      "rule_id": "rule_cyberpunk_neon_dark",
+      "source_type": "emotion",
+      "source_val": "cyberpunk",
+      "target_type": "color_psychology",
+      "constraint": "in",
+      "values": ["neon-dark", "brutalist-raw"],
+      "severity": "error",
+      "message": "Cyberpunk mood is highly bound to Neon Dark or Industrial Raw color palettes."
+    },
+    {
+      "rule_id": "rule_trustworthy_clean_type",
+      "source_type": "emotion",
+      "source_val": "trustworthy",
+      "target_type": "typography_styles",
+      "constraint": "not_in",
+      "values": ["funky-serif", "brutalist-mono"],
+      "severity": "error",
+      "message": "Traditional corporate trust requires geometric sans or classic serif typography."
+    },
+    {
+      "rule_id": "rule_playful_elastic_motion",
+      "source_type": "emotion",
+      "source_val": "playful",
+      "target_type": "motion_styles",
+      "constraint": "in",
+      "values": ["elastic", "reactive", "springy"],
+      "severity": "warning",
+      "message": "Playful brands are enhanced by elastic or spring-based reactive micro-interactions."
+    }
+  ]
+}

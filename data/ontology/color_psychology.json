@@ -1,0 +1,82 @@
+[
+  {
+    "id": "monochrome-luxury",
+    "name": "Monochrome Luxury",
+    "background": "#0D0D0D",
+    "foreground": "#F5F5F0",
+    "accent": "#C5A880",
+    "muted": "#404040",
+    "vibe": "sophistication, elegance, minimalism",
+    "emotions": ["luxury", "editorial", "avant-garde"]
+  },
+  {
+    "id": "neon-dark",
+    "name": "Cyberpunk Neon Dark",
+    "background": "#050508",
+    "foreground": "#ECECF0",
+    "accent": "#00FF66",
+    "muted": "#7B2CBF",
+    "vibe": "futurism, excitement, high energy",
+    "emotions": ["cyberpunk", "aggressive", "energetic"]
+  },
+  {
+    "id": "warm-earth",
+    "name": "Warm Earth & Botanical",
+    "background": "#F7F5F0",
+    "foreground": "#2C3531",
+    "accent": "#D2691E",
+    "muted": "#8F9779",
+    "vibe": "nature, sustainability, comfort, calmness",
+    "emotions": ["calm", "trustworthy"]
+  },
+  {
+    "id": "playful-pop",
+    "name": "Playful Vibrant Pop",
+    "background": "#FFFFFF",
+    "foreground": "#1E1E24",
+    "accent": "#FF6B6B",
+    "muted": "#FFE66D",
+    "vibe": "fun, approachability, creativity, joy",
+    "emotions": ["playful", "energetic"]
+  },
+  {
+    "id": "corporate-blue",
+    "name": "Corporate Trust Blue",
+    "background": "#F8FAFC",
+    "foreground": "#0F172A",
+    "accent": "#2563EB",
+    "muted": "#64748B",
+    "vibe": "reliability, integrity, safety",
+    "emotions": ["trustworthy", "editorial"]
+  },
+  {
+    "id": "pastel-calm",
+    "name": "Calming Soft Pastel",
+    "background": "#FAFAF9",
+    "foreground": "#44403C",
+    "accent": "#A7F3D0",
+    "muted": "#D6D3D1",
+    "vibe": "gentleness, pureness, serenity",
+    "emotions": ["calm", "playful"]
+  },
+  {
+    "id": "brutalist-raw",
+    "name": "Brutalist Raw Industrial",
+    "background": "#1A1A1A",
+    "foreground": "#FFFFFF",
+    "accent": "#FFD700",
+    "muted": "#B0B0B0",
+    "vibe": "non-conformity, raw truth, structure",
+    "emotions": ["aggressive", "cyberpunk", "avant-garde"]
+  },
+  {
+    "id": "deep-velvet",
+    "name": "Deep Velvet Luxury",
+    "background": "#120015",
+    "foreground": "#F3E8FF",
+    "accent": "#E9D5FF",
+    "muted": "#4A044E",
+    "vibe": "mystery, deep emotion, passion",
+    "emotions": ["luxury", "mysterious", "avant-garde"]
+  }
+]

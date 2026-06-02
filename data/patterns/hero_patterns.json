@@ -1,0 +1,288 @@
+[
+  {
+    "id": "immersive-product-reveal",
+    "name": "Immersive Product Reveal",
+    "category": "hero",
+    "best_for": [
+      "luxury",
+      "avant-garde",
+      "mysterious"
+    ],
+    "emotion_scores": {
+      "luxury": 9,
+      "mysterious": 8,
+      "calm": 4
+    },
+    "motion_energy": 6,
+    "performance_cost": 5,
+    "layout_type": "full-viewport",
+    "requires_3d": false,
+    "scroll_behavior": "parallax-reveal",
+    "recommended_components": [
+      "ImmersiveHero",
+      "LiquidBackground"
+    ],
+    "conversion_strength": 7,
+    "mobile_adaptation": "simplified-fade"
+  },
+  {
+    "id": "brutalist-split-ticker",
+    "name": "Brutalist Split Ticker",
+    "category": "hero",
+    "best_for": [
+      "cyberpunk",
+      "aggressive",
+      "energetic"
+    ],
+    "emotion_scores": {
+      "aggressive": 9,
+      "cyberpunk": 9,
+      "energetic": 8
+    },
+    "motion_energy": 9,
+    "performance_cost": 4,
+    "layout_type": "split-screen",
+    "requires_3d": false,
+    "scroll_behavior": "ticker-marquee",
+    "recommended_components": [
+      "SplitHero",
+      "TextMarquee",
+      "IndustrialBorder"
+    ],
+    "conversion_strength": 8,
+    "mobile_adaptation": "static-stack"
+  },
+  {
+    "id": "airy-editorial-hero",
+    "name": "Airy Editorial Typographic Hero",
+    "category": "hero",
+    "best_for": [
+      "editorial",
+      "luxury",
+      "calm"
+    ],
+    "emotion_scores": {
+      "editorial": 9,
+      "luxury": 8,
+      "calm": 8
+    },
+    "motion_energy": 2,
+    "performance_cost": 2,
+    "layout_type": "high-breathing",
+    "requires_3d": false,
+    "scroll_behavior": "smooth-scroll-fade",
+    "recommended_components": [
+      "EditorialTextHero",
+      "WhitespaceSeparator"
+    ],
+    "conversion_strength": 6,
+    "mobile_adaptation": "standard-padding"
+  },
+  {
+    "id": "vibrant-interactive-cards",
+    "name": "Vibrant Interactive Spring Cards",
+    "category": "hero",
+    "best_for": [
+      "playful",
+      "energetic"
+    ],
+    "emotion_scores": {
+      "playful": 9,
+      "energetic": 8,
+      "calm": 3
+    },
+    "motion_energy": 8,
+    "performance_cost": 4,
+    "layout_type": "modular-grid",
+    "requires_3d": false,
+    "scroll_behavior": "hover-elastic-float",
+    "recommended_components": [
+      "CardGridHero",
+      "ElasticCard",
+      "DotBackground"
+    ],
+    "conversion_strength": 8,
+    "mobile_adaptation": "touch-swipe-carousel"
+  },
+  {
+    "id": "minimal-split-screen",
+    "name": "Minimalist Split Screen Drag",
+    "category": "hero",
+    "best_for": [
+      "trustworthy",
+      "calm",
+      "editorial"
+    ],
+    "emotion_scores": {
+      "trustworthy": 9,
+      "calm": 7,
+      "editorial": 6
+    },
+    "motion_energy": 4,
+    "performance_cost": 3,
+    "layout_type": "split-screen",
+    "requires_3d": false,
+    "scroll_behavior": "drag-reveal",
+    "recommended_components": [
+      "SplitScreenHero",
+      "InteractiveCursor"
+    ],
+    "conversion_strength": 9,
+    "mobile_adaptation": "vertical-stack"
+  },
+  {
+    "id": "learned-flow-0321a226",
+    "name": "Self-Learned Creative Flow",
+    "category": "hero",
+    "best_for": [
+      "editorial"
+    ],
+    "emotion_scores": {
+      "editorial": 9,
+      "learned_success": 10
+    },
+    "motion_energy": 5,
+    "performance_cost": 4,
+    "layout_type": "airy",
+    "requires_3d": false,
+    "scroll_behavior": "cinematic",
+    "recommended_components": [
+      "ImmersiveHero",
+      "FeatureGrid",
+      "InteractiveGallery",
+      "SplitSection",
+      "MotionCTA",
+      "GlassmorphicFooter"
+    ],
+    "conversion_strength": 9,
+    "mobile_adaptation": "standard-padding",
+    "learned_from_session": "test_run_1",
+    "original_prompt": "Sitem hem inanılmaz derecede lüks, premium ve minimalist hissettirmeli hem de sokak kültürünün o asi, kaotik, grafitili ve hırçın enerjisini taşımalı."
+  },
+  {
+    "id": "learned-flow-f740d463",
+    "name": "Self-Learned Creative Flow",
+    "category": "hero",
+    "best_for": [
+      "editorial"
+    ],
+    "emotion_scores": {
+      "editorial": 9,
+      "learned_success": 10
+    },
+    "motion_energy": 5,
+    "performance_cost": 4,
+    "layout_type": "airy",
+    "requires_3d": false,
+    "scroll_behavior": "cinematic",
+    "recommended_components": [
+      "ImmersiveHero",
+      "Marquee",
+      "FeatureGrid",
+      "BentoGrid",
+      "TextReveal",
+      "ParallaxGallery",
+      "StatsCounter",
+      "TestimonialCarousel",
+      "MotionCTA",
+      "GlassmorphicFooter"
+    ],
+    "conversion_strength": 9,
+    "mobile_adaptation": "standard-padding",
+    "learned_from_session": "e2e_1a4b0d41",
+    "original_prompt": "Modern, premium ve fütüristik bir lüks mekanik saat markası"
+  },
+  {
+    "id": "learned-flow-9150d05b",
+    "name": "Self-Learned Creative Flow",
+    "category": "hero",
+    "best_for": [
+      "editorial"
+    ],
+    "emotion_scores": {
+      "editorial": 9,
+      "learned_success": 10
+    },
+    "motion_energy": 5,
+    "performance_cost": 4,
+    "layout_type": "airy",
+    "requires_3d": false,
+    "scroll_behavior": "cinematic",
+    "recommended_components": [
+      "SplitSectionHero",
+      "Marquee",
+      "FeatureGrid",
+      "BentoGrid",
+      "TextReveal",
+      "ParallaxGallery",
+      "StatsCounter",
+      "TestimonialCarousel",
+      "MotionCTA",
+      "GlassmorphicFooter"
+    ],
+    "conversion_strength": 9,
+    "mobile_adaptation": "standard-padding",
+    "learned_from_session": "e2e_e666ddeb",
+    "original_prompt": "Aydınlık, ferah ve çok canlı renklere sahip, koyu tema KESİNLİKLE kullanmayan, animasyonları ilgi çekici modern bir fotoğraf stüdyosu"
+  },
+  {
+    "id": "learned-flow-5c0a24d2",
+    "name": "Self-Learned Creative Flow",
+    "category": "hero",
+    "best_for": [
+      "editorial"
+    ],
+    "emotion_scores": {
+      "editorial": 9,
+      "learned_success": 10
+    },
+    "motion_energy": 5,
+    "performance_cost": 4,
+    "layout_type": "airy",
+    "requires_3d": false,
+    "scroll_behavior": "cinematic",
+    "recommended_components": [
+      "ImmersiveHero",
+      "FeatureGrid",
+      "TestimonialCarousel",
+      "StatsCounter",
+      "MotionCTA",
+      "BorderedFooter"
+    ],
+    "conversion_strength": 9,
+    "mobile_adaptation": "standard-padding",
+    "learned_from_session": "e2e_65765c55",
+    "original_prompt": "Bana çok premium, abartılı, lüks ve etkileşimli bir tır ve nakliye (lojistik) firması web sitesi tasarla. Müşterinin 'basit olsun' dediği ama bizim şov yaptığımız, bol GSAP animasyonlu, 3D derinlik hissi veren, devasa tipografili ve efsanevi bir tasarıma sahip olsun."
+  },
+  {
+    "id": "learned-flow-55a61a0f",
+    "name": "Self-Learned Creative Flow",
+    "category": "hero",
+    "best_for": [
+      "editorial"
+    ],
+    "emotion_scores": {
+      "editorial": 9,
+      "learned_success": 10
+    },
+    "motion_energy": 5,
+    "performance_cost": 4,
+    "layout_type": "airy",
+    "requires_3d": false,
+    "scroll_behavior": "cinematic",
+    "recommended_components": [
+      "SplitSectionHero",
+      "BentoGrid",
+      "TextReveal",
+      "ParallaxGallery",
+      "StatsCounter",
+      "TestimonialCarousel",
+      "MotionCTA",
+      "BorderedFooter"
+    ],
+    "conversion_strength": 9,
+    "mobile_adaptation": "standard-padding",
+    "learned_from_session": "e2e_f135817a",
+    "original_prompt": "Samuray kılıç tasarımları satan, karanlık siberpunk temalı, farenin hareketine göre katana savurma animasyonları olan ve scroll ettikçe kılıcın ekranı kestiği efsanevi bir WebGL deneyimi."
+  }
+]

@@ -1,0 +1,19 @@
+import "./globals.css";
+import SmoothScroll from "../components/SmoothScroll";
+
+export const metadata = {
+  title: "ANDIP Generated Design",
+  description: "AI Native Design Intelligence Platform custom generated experience",
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body className="font-body bg-background text-foreground antialiased min-h-screen transition-colors duration-300">
+        <SmoothScroll>
+          {children}
+        </SmoothScroll>
+      </body>
+    </html>
+  );
+}

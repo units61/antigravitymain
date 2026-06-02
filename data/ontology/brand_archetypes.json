@@ -1,0 +1,146 @@
+[
+  {
+    "id": "creator",
+    "name": "Creator",
+    "description": "Innovative, artistic, self-expressive, and imaginative.",
+    "visual_language": {
+      "preferred_density": "medium",
+      "preferred_spacing": "balanced",
+      "preferred_motion_intensity": 7
+    },
+    "key_emotions": ["innovative", "energetic", "playful"],
+    "example_brands": ["Apple", "Lego", "Adobe"]
+  },
+  {
+    "id": "ruler",
+    "name": "Ruler",
+    "description": "Authoritative, organized, high-status, and powerful.",
+    "visual_language": {
+      "preferred_density": "low",
+      "preferred_spacing": "airy",
+      "preferred_motion_intensity": 3
+    },
+    "key_emotions": ["luxury", "trustworthy", "calm"],
+    "example_brands": ["Rolex", "Mercedes-Benz", "Rolls-Royce"]
+  },
+  {
+    "id": "rebel",
+    "name": "Rebel",
+    "description": "Disruptive, wild, revolutionary, and anti-establishment.",
+    "visual_language": {
+      "preferred_density": "high",
+      "preferred_spacing": "compact",
+      "preferred_motion_intensity": 9
+    },
+    "key_emotions": ["aggressive", "mysterious", "energetic"],
+    "example_brands": ["Harley-Davidson", "Virgin", "Diesel"]
+  },
+  {
+    "id": "magician",
+    "name": "Magician",
+    "description": "Transformative, visionary, magical, and dreamlike.",
+    "visual_language": {
+      "preferred_density": "low",
+      "preferred_spacing": "airy",
+      "preferred_motion_intensity": 8
+    },
+    "key_emotions": ["mysterious", "calm", "playful"],
+    "example_brands": ["Dyson", "Disney", "Tesla"]
+  },
+  {
+    "id": "innocent",
+    "name": "Innocent",
+    "description": "Optimistic, wholesome, pure, and simple.",
+    "visual_language": {
+      "preferred_density": "low",
+      "preferred_spacing": "airy",
+      "preferred_motion_intensity": 4
+    },
+    "key_emotions": ["calm", "trustworthy", "playful"],
+    "example_brands": ["Dove", "Coca-Cola", "Method"]
+  },
+  {
+    "id": "explorer",
+    "name": "Explorer",
+    "description": "Adventurous, independent, organic, and self-sufficient.",
+    "visual_language": {
+      "preferred_density": "medium",
+      "preferred_spacing": "balanced",
+      "preferred_motion_intensity": 5
+    },
+    "key_emotions": ["energetic", "mysterious", "trustworthy"],
+    "example_brands": ["Patagonia", "Jeep", "The North Face"]
+  },
+  {
+    "id": "sage",
+    "name": "Sage",
+    "description": "Knowledgeable, analytical, structured, and wise.",
+    "visual_language": {
+      "preferred_density": "high",
+      "preferred_spacing": "balanced",
+      "preferred_motion_intensity": 3
+    },
+    "key_emotions": ["trustworthy", "calm", "mysterious"],
+    "example_brands": ["Google", "TED", "BBC"]
+  },
+  {
+    "id": "jester",
+    "name": "Jester",
+    "description": "Humorous, lighthearted, fun-loving, and joyful.",
+    "visual_language": {
+      "preferred_density": "medium",
+      "preferred_spacing": "compact",
+      "preferred_motion_intensity": 9
+    },
+    "key_emotions": ["playful", "energetic", "trustworthy"],
+    "example_brands": ["M&Ms", "Mailchimp", "Old Spice"]
+  },
+  {
+    "id": "lover",
+    "name": "Lover",
+    "description": "Sensual, elegant, intimate, and highly aesthetic.",
+    "visual_language": {
+      "preferred_density": "low",
+      "preferred_spacing": "airy",
+      "preferred_motion_intensity": 5
+    },
+    "key_emotions": ["luxury", "calm", "mysterious"],
+    "example_brands": ["Chanel", "Gucci", "Haagen-Dazs"]
+  },
+  {
+    "id": "caregiver",
+    "name": "Caregiver",
+    "description": "Nurturing, compassionate, generous, and protective.",
+    "visual_language": {
+      "preferred_density": "medium",
+      "preferred_spacing": "balanced",
+      "preferred_motion_intensity": 3
+    },
+    "key_emotions": ["calm", "trustworthy", "playful"],
+    "example_brands": ["Johnson & Johnson", "Volvo", "Campbell's"]
+  },
+  {
+    "id": "everyman",
+    "name": "Everyman",
+    "description": "Down-to-earth, reliable, supportive, and connecting.",
+    "visual_language": {
+      "preferred_density": "medium",
+      "preferred_spacing": "balanced",
+      "preferred_motion_intensity": 4
+    },
+    "key_emotions": ["trustworthy", "calm", "playful"],
+    "example_brands": ["IKEA", "Target", "Levi's"]
+  },
+  {
+    "id": "hero",
+    "name": "Hero",
+    "description": "Courageous, determined, strong, and highly energetic.",
+    "visual_language": {
+      "preferred_density": "medium",
+      "preferred_spacing": "balanced",
+      "preferred_motion_intensity": 8
+    },
+    "key_emotions": ["energetic", "aggressive", "trustworthy"],
+    "example_brands": ["Nike", "Red Bull", "Under Armour"]
+  }
+]

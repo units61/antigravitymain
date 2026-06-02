@@ -1,0 +1,68 @@
+[
+  {
+    "id": "editorial-serif",
+    "name": "Editorial Classic Serif",
+    "header_font": "Playfair Display",
+    "body_font": "Inter",
+    "header_weight": "600",
+    "body_weight": "400",
+    "letter_spacing": "-0.02em",
+    "vibe": "traditional sophistication, timelessness, academic",
+    "emotions": ["luxury", "editorial", "trustworthy"]
+  },
+  {
+    "id": "thin-sans",
+    "name": "Minimalist Thin Sans",
+    "header_font": "Outfit",
+    "body_font": "Plus Jakarta Sans",
+    "header_weight": "300",
+    "body_weight": "400",
+    "letter_spacing": "-0.03em",
+    "vibe": "ultra-modern simplicity, airy elegance, cleanliness",
+    "emotions": ["luxury", "calm"]
+  },
+  {
+    "id": "geometric-sans",
+    "name": "Geometric Modern Sans",
+    "header_font": "Sora",
+    "body_font": "Inter",
+    "header_weight": "700",
+    "body_weight": "400",
+    "letter_spacing": "-0.01em",
+    "vibe": "tech-forward, highly readable, structured, modern-corporate",
+    "emotions": ["trustworthy", "calm", "energetic"]
+  },
+  {
+    "id": "brutalist-mono",
+    "name": "Brutalist Mechanical Mono",
+    "header_font": "Space Grotesk",
+    "body_font": "Space Mono",
+    "header_weight": "700",
+    "body_weight": "400",
+    "letter_spacing": "-0.02em",
+    "vibe": "high tech, terminal styling, mechanical, uncompromising",
+    "emotions": ["cyberpunk", "aggressive", "avant-garde"]
+  },
+  {
+    "id": "rounded-sans",
+    "name": "Cozy Rounded Sans",
+    "header_font": "Fredoka One",
+    "body_font": "Quicksand",
+    "header_weight": "400",
+    "body_weight": "500",
+    "letter_spacing": "0em",
+    "vibe": "friendly, childishly creative, warm, extremely approachable",
+    "emotions": ["playful", "calm"]
+  },
+  {
+    "id": "funky-serif",
+    "name": "Avant-Garde Display Serif",
+    "header_font": "Cinzel Decorative",
+    "body_font": "DM Sans",
+    "header_weight": "700",
+    "body_weight": "400",
+    "letter_spacing": "0.05em",
+    "vibe": "highly artistic, expressive, historical but radical",
+    "emotions": ["avant-garde", "mysterious", "playful"]
+  }
+]

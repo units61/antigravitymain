@@ -1,0 +1,36 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        background: "var(--color-bg)",
+        foreground: "var(--color-fg)",
+        accent: "var(--color-accent)",
+        muted: "var(--color-muted)",
+        borderColor: "var(--color-border)",
+        cardBg: "var(--color-card-bg)",
+      },
+      borderRadius: {
+        custom: "var(--border-radius)",
+      },
+      borderWidth: {
+        custom: "var(--border-width)",
+      },
+      backdropBlur: {
+        custom: "var(--backdrop-blur)",
+      },
+      boxShadow: {
+        custom: "var(--box-shadow)",
+      },
+      fontFamily: {
+        header: ["var(--font-header)", "serif"],
+        body: ["var(--font-body)", "sans-serif"],
+      },
+    },
+  },
+  plugins: [],
+}
