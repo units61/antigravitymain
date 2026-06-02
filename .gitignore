@@ -2,3 +2,11 @@
 .env
 credentials.json
 token.json
+node_modules/
+__pycache__/
+*.log
+*.mp4
+*.png
+*.jpg
+*.jpeg
+*.gif
