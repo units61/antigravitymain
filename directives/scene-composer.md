@@ -39,7 +39,7 @@ You must output a strictly structured, clean JSON object matching the following 
 
 ## 3. Scene Layout & Composition Guidelines
 
-1. **Scene Layout Modes**:
+1. **Scene Layout Modes (WebGL & DOM Senkronu)**:
    - **fullscreen_canvas**: The absolute best Awwwards-tier mode. The entire screen is a 3D WebGL viewport, with editorial title and body elements overlaying absolute-centered or left-aligned with ample white space. z-index of canvas is `-1`, content is `10`.
    - **split_screen_narrative**: The viewport is divided. 50% houses a sticky WebGL canvas; the other 50% contains deep-dive copywriting that scrolls independently.
    - **staggered_editorial**: Staggered asymmetric layout blocks that let the WebGL camera paths peek through the negative background space as you scroll.
@@ -53,3 +53,10 @@ You must output a strictly structured, clean JSON object matching the following 
    - `INTRODUCTION` scenes should default to `fullscreen_canvas` with `massive_kinetic_title` to grab instant attention.
    - `EXPLORATION` and `DISCOVERY` scenes should leverage `bento_storyboard` or `split_screen_narrative` to show multi-dimensional product values.
    - `PROOF` should default to `staggered_editorial` with a high-contrast serif typeface.
+
+---
+
+## 4. ASLA YAPMA (Negative Constraints)
+- **ASLA** WebGL/Three.js sahnelerinin DOM elemanlarıyla (metinler, butonlar) ilişkisini koparma. DOM elemanları kameranın scroll hareketine ve WebGL derinliğine (z-index) milimetrik olarak senkronize olmalıdır.
+- **ASLA** `fullscreen_canvas` haricindeki yerleşim modlarında arka plan 3D elementlerini tamamen örtme. Boşlukların ve asimetrinin 3D nesneleri göstermesine izin ver.
+- **ASLA** basit z-index hiyerarşilerinden kaçınma. Metinler ve WebGL nesneleri katman katman birbirinin içinden süzülmelidir.

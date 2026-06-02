@@ -92,3 +92,11 @@ You must output a strictly structured, clean JSON object matching the following 
      - E.g., Luxury: Dark environment with a low spotlight reflecting off chrome/gold surfaces + gold dust particles.
      - E.g., Calm/Organic: Soft studio keylights, bright white fog (`fog_color: "#FFFDF9"`), and floating dust stars.
 
+---
+
+## 4. ASLA YAPMA (Negative Constraints)
+- **ASLA standart gri/renksiz Three.js mesh'leri kullanma.** Bütün nesnelerin premium materyalleri (refraction, glass, gold, chrome, neon-glitch) veya custom shader'ları bulunmalıdır.
+- **ASLA statik sahneler üretme.** Scroll harici zamanlarda da particle'lar yavaşça süzülmeli, sıvı shader'lar dalgalanmalıdır.
+- **ASLA standart ambient ışıkla yetinme.** Sahne derinliğini bozacak düz beyaz genel aydınlatmalar yerine her zaman `fog` ve yönlü/noktasal (`spotlight` / `directional`) gölge/ışık katmanları kullan.
+- **ASLA birbirine paralel veya sıradan lineer scroll hareketleri oluşturma.** Kamera yolları asimetrik, kavisli ve derinlik hissi veren (z-axis flythrough) rotalarda olmalıdır.
+- **ASLA z-index kontrolsüz DOM elementleri yığını planlama.** WebGL sahnesi ile HTML metinlerinin çakıştığı yerleri boş bırakma, derinlik seviyelerini kesinlikle ayarla.

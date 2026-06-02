@@ -83,5 +83,27 @@ You must output a strictly structured, clean JSON object matching the following 
    - For image-heavy sections (e.g., `ParallaxGallery`), configure `parallax_offset: 0.3` to 0.5 to offset elements relative to scroll speed.
    - Use `stagger_children: 0.12` to 0.18 for cascading element reveals when entering the viewport.
 
-5. **Consistency**: Ensure all sections mapped from the UX layout have a corresponding entry in `section_animations` with customized hover/scroll behaviors.
+5. **Premium Interaction Physics & Mouse Parallax**:
+   - **Magnetic Buttons**: Interactive CTA buttons must have a magnetic pull radius. Specify target elements with a class like `.magnetic-btn` that track mouse coordinates (`x`, `y`) and interpolate positions with GSAP quickTo (`stiffness: 0.1`, `damping: 0.8`) to follow cursor offset within a 30-50px radius.
+   - **Custom Mouse Cursor**: Implement a custom SVG/HTML cursor that lags elegantly behind the actual mouse coordinates using a lerp function (`0.15` factor) or a GSAP spring to create fluid organic tracking.
+   - **Parallax Mouse Coordinates**: Background 3D particles or layered SVG details must react to viewport mouse hover positions using a very subtle parallax factor (`-0.05` to `0.05` of viewport width/height).
+
+6. **Custom Cubic-Bezier Fiziği & GSAP ScrollTrigger**:
+   - Use custom, non-linear premium ease curves instead of CSS/JS defaults:
+     - *Luxury Ease (OutExpo)*: `cubic-bezier(0.16, 1, 0.3, 1)` or GSAP `power4.out`.
+     - *Elastic Snap*: `cubic-bezier(0.34, 1.56, 0.64, 1)` or GSAP `back.out(1.7)`.
+     - *Slow Drag*: `cubic-bezier(0.25, 1, 0.5, 1)` or GSAP `power3.out`.
+   - When using GSAP ScrollTrigger, `scrub` must never be a simple boolean `true`. Use numerical values (e.g., `scrub: 1` or `scrub: 1.5`) to introduce physical lag/inertia, creating an ultra-smooth cinematic effect.
+
+7. **Consistency**: Ensure all sections mapped from the UX layout have a corresponding entry in `section_animations` with customized hover/scroll behaviors.
+
+---
+
+## 4. ASLA YAPMA (Negative Constraints)
+- **ASLA standart "linear", "ease-in" veya "ease-out" geçiş eğrileri kullanma.** Tüm animasyonlar premium custom cubic-bezier (örneğin: `cubic-bezier(0.16, 1, 0.3, 1)`) veya GSAP easing kütüphanesi kullanmalıdır.
+- **ASLA ani ve sert animasyon geçişleri yapma.** Nesneler dururken veya başlarken ivmelenmeli (easing) ve sönümlenmelidir.
+- **ASLA ham, pürüzsüzleştirilmemiş (non-smooth) scroll kullanma.** Sayfa genelinde Lenis, GSAP ScrollSmoother veya dengi bir momentum/akıcı kaydırma sistemi kesinlikle aktif olmalıdır.
+- **ASLA `ScrollTrigger` scrub değerini basit bir `true` olarak bırakma.** Fiziksel ivme katmak için her zaman `scrub: 1` veya `scrub: 1.5` gibi gecikme/momentum parametreleri kullan.
+- **ASLA tıklanabilir veya interaktif elemanları geribildirimsiz (hover/tap statesiz) bırakma.** Her buton, kart ve link mikromıknatıs, hafif büyüme veya premium elastic pop ile etkileşime girmelidir.
+- **ASLA z-axis veya 3D rotasyon içermeyen düz 2D kaydırmalar yapma.** Portföy veya galeri geçişlerinde parallax, derinlik (depth/z-axis zoom) ve kavisli (spiral/cylindrical) yörüngeler tasarla.
 
